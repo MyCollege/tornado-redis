@@ -6,7 +6,6 @@ import weakref
 
 from tornado.ioloop import IOLoop
 from tornado import gen
-
 from datetime import datetime
 from .exceptions import RequestError, ConnectionError, ResponseError
 from .connection import Connection
